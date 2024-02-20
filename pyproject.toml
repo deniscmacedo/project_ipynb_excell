@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "project-ipynb-excell"
+version = "0.1.0"
+description = ""
+authors = ["Denis Macedo <deniscmacedo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.0"
+ipykernel = "^6.29.2"
+openpyxl = "^3.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
